@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+
+li, a{
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+}
+
+
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.75)), url('Forest.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    height: 100vh; 
+    width: 100%;
+}
+.Forest {
+    cursor: pointer;
+    margin-right: auto;
+    color:#CD853F;
+    
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+ 
+  
+}
+
+.nav_bar li {
+  display: inline-block;
+  padding: 0px 20px;
+  font-size: large;
+  text-decoration: none;
+  font-family: 'Quicksand';
+  font-weight: bolder;
+  
+}
+
+.nav_bar .Home {
+
+    color: #CD853F;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+h2 {
+    text-shadow: 1px 3px grey;
+
+}
+
+.Content {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+    text-align:center;
+    color: #fff;
+    font-family: 'Quicksand';
+    font-weight: bolder;
+    opacity: 1;
+    
+
+
+}
+
+.Content h2 {
+    font-size: 50px;
+    margin-top: 80px;
+    color:wheat;
+    
+
+}
+
+.Content p {
+    margin: 20px auto;
+    font-weight: 100%;
+    line-height: 25px;
+
+}
+
+button{
+    width: 130px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid ;
+    background: transparent;
+    color:#fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+span {
+    background: #CD853F;
+    height: 100%;
+    width: 0;
+    border-radius: 25px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+button:hover span{
+    width: 100%;
+}
+
+button:hover {
+    border: none;
+}
